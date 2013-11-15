@@ -6,7 +6,98 @@
         Purpose of the stylesheet follows.
 */
 
-p {text-align:center; color:black; font-family:arial;}
+header{
+    font-size: 38px;
+    font-style: italic;
+    color: #dfe5d7;
+    padding: 10px;
+    text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
+}
+.cbody1{
+    background: #a90329;
+}
+.cbody2{
+    background-color:#258dc8;
+}
+.cbody3{
+    background-color:#258dc8;
+}
+p{
+    color:black; font-family:arial;
+}
+.Pflotados{
+    color:white; font-family: arial
+}
+A:link{
+    text-decoration:none;color:#0000cc;
+} 
+A:visited{
+    text-decoration:none;color:#ffcc33;
+} 
+A:active{
+    text-decoration:none;color:#ff0000;
+} 
+A:hover{
+    text-decoration:underline;color:#999999;font-weight:bold
+} 
+.sangria{
+    text-indent: 1.5em;
+}
+#contenedor-mains, aside{
 
-.center {text-align:center;}
-
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;    
+   
+}
+#contenedor-mains{
+    width:75%;
+    margin: 0 auto;
+    vertical-align: top;
+    
+}
+.flotados{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
+    width:32%;
+    height: 500px;
+    margin:5px;
+    float:left;
+    text-align: center;
+}
+.footerfl{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
+    width:98%;
+    height: 45px;
+    margin:5px;
+    float:left;
+    text-align: center;
+    vertical-align: center;
+}
+.clear{
+    clear:both;
+}
+.divnueva {
+    max-width:90%;
+    height:400px;
+    margin: auto;
+}
+aside{
+    width: 20%;
+}
+footer{
+    height: 50px;
+    text-align: left;
+    text-shadow: 
+}
