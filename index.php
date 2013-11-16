@@ -1,3 +1,11 @@
+<!-- 
+    Document   : index.php
+    Created on : 13-nov-2013, 23:13:29
+    Author     : AxelRodriguez, NicolasOyarzun, PedroSalas
+    Description:
+        Desarrollo de un sitio en PHP + HTML5 + CSS3 para la tarea 2 de ayudantia de ing. de software.
+-->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -65,17 +73,18 @@
                 Estudiantes de la Universidad Tecnológica Metropolitana.
                 <br></p>
                 <p class="Pflotados">Pagina desarrollada en HTML5, CSS3 y PHP.</p>
-                <br>
-                <br>
+                <a href="http://github.com/AxelRodriguezE/Tarea2_AyudantiaIngSoft">
+                    <img src="images/GitHub.png" alt="GitHub del Sitio" width="50" height="50"></a>
             <?php 
-                    $frase1="<p class='sangria'><i>El comunismo no priva al hombre de la libertad de apropiarse del fruto de su trabajo, 
+                    $frase1="<p class='sangria' align='right'><i>El comunismo no priva al hombre de la libertad de apropiarse del fruto de su trabajo, 
                         lo único de lo que lo priva es de la libertad de esclavizar a otros por medio de tales apropiaciones.</i></p>
-                        <p align='right'>Karl Marx.</p>"; 
-                    $frase2="Oli2";
-                    $frase3="Oli2";
-                    $frase4="Oli4";
-                    $frase5="Oli5";
-                    $frase6="Oli6";
+                        <p align='right'>Carlos Marx.</p>"; 
+                    $frase2="<p class='sangria' alighn='right'><i>Sueña y serás libre en espíritu, lucha y serás libre en vida.</i></p>
+                        <p align='right'>Ché Guevara.</p>";
+                    $frase3="<p class='sangria' align='right'><i>La libertad no es poder elegir entre unas pocas opciones impuestas, sino tener el control de tu propia vida. La libertad no es elegir quien será tu amo, es no tener amo.</i></p>
+                        <p align='right'>Richard Stallman.</p>";
+                    $frase4="<p class='sangria' align='right'><i>El propósito de los medios masivos … no es tanto informar y reportar lo que sucede, sino más bien dar forma a la opinión pública de acuerdo a las agendas del poder corporativo dominante.</i></p>
+                        <p align='right'>Noam Chomsky.</p>";
                     $color=rand(1,6);
                     switch ($color) {
                     case 1:
@@ -87,12 +96,6 @@
                     case 3:
                         echo "<p>$frase4</p>";
                         break;
-                    case 4:
-                        echo "<p>$frase5</p>";
-                        break;
-                    case 5:
-                        echo "<p>$frase6</p>";
-                        break;
                     default:
                         echo "<p>$frase1</p>";
                     }
@@ -103,7 +106,7 @@
                 <div class="clear"></div>
                 </div>
                 <footer>
-                    <div class="footerfl"><p class="Pflotados">Desarrollada por Estudiantes de la Universidad Tecnológica metropolitana - 2do.S.2013</p></div>
+                    <div class="footerfl"><p class="Pflotados">Desarrollada por Estudiantes de la Universidad Tecnológica Metropolitana - 2do.S.2013</p></div>
                 </footer>
             </div>
         </div>
